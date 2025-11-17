@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node updateFarmNames.js:*)",
+      "Bash(npm run summary:*)",
+      "Bash(node migrateAddCoordinates.js:*)",
+      "WebSearch",
+      "Bash(README.md)",
+      "Bash(npm run help:*)",
+      "Bash(tree src -L 2:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

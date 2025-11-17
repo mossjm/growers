@@ -1,0 +1,27 @@
+{
+  "name": "growers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/commands/fetchContracts.js",
+    "sql": "node src/database/setupDatabase.js",
+    "summary": "node src/commands/generateSummary.js",
+    "update-farms": "node src/commands/updateFarmNames.js",
+    "geocode": "node src/commands/geocodeAddresses.js",
+    "export-geojson": "node src/export/exportToGeoJSON.js",
+    "export-beds": "node src/export/exportBedsToGeoJSON.js",
+    "export-beds-by-farm": "node src/export/exportBedsByFarm.js",
+    "help": "node src/commands/help.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^16.4.5",
+    "pg": "^8.13.1"
+  }
+}

@@ -1,0 +1,24 @@
+# Environment variables (contains sensitive API tokens and DB credentials)
+.env
+
+# Downloaded data files
+data/
+
+# Input data files (contains contract numbers and grower names)
+input/
+
+# Operational logs
+logs/
+
+# Generated reports
+output/
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
